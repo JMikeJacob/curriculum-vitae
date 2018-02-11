@@ -1,0 +1,25 @@
+.content {
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#educ-header {
+    align-content: center;
+    vertical-align: middle;
+    text-align: middle;
+    height:50px;
+    background-color: blue;
+}
+
+#pos-header {
+    background-color: red;
+}
+
+#work-header {
+    background-color: yellow;
+}
+
+#ach-header {
+    background-color: brown;
+}
