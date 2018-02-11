@@ -22,7 +22,14 @@ class Panel1 extends Component {
                     <h2 className="section-title">Education</h2>
             </div>
             <div id="educ-content" className="content" style={this.state.toggle ? {height:200} : {height:0}}>
-                    <p> EDUCATION </p>      
+                    <ul className="list">
+                        <li><h3>Taguig Science High School</h3>
+                            <p>High School (2011-2015)</p>
+                        </li>
+                        <li><h3>Excellent Achievers Learning Center</h3></li>
+                            <p>Elementary (2005-2011)<br/> 
+                               Primary (2002-2005)</p>
+                    </ul>      
             </div>
         </div>
     );
@@ -49,7 +56,14 @@ class Panel2 extends Component {
                       <h2 className="section-title">Positions Held</h2>
               </div>
               <div id="pos-content" className="content" style={this.state.toggle ? {height:200} : {height:0}}>
-                      <p> EDUCATION </p>      
+              <ul className="list">
+                        <li><h3>Taguig Science High School</h3>
+                            <p>High School (2011-2015)</p>
+                        </li>
+                        <li><h3>Excellent Achievers Learning Center</h3></li>
+                            <p>Elementary (2005-2011)<br/> 
+                               Primary (2002-2005)</p>
+                    </ul>   
               </div>
           </div>
       );

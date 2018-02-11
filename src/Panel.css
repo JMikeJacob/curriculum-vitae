@@ -4,6 +4,10 @@
     transition: height 0.5s;
 }
 
+.list {
+    list-style-type: none;
+}
+
 #educ-header {
     align-content: center;
     vertical-align: middle;
